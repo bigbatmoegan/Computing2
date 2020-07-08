@@ -1,0 +1,23 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// Jeremorg
+
+Bubble Sort Analysis:
+	The Big-O Time complexity of Bubble Sort is Ω(n) for best case,
+	Θ(n^2) for average case, and O(n^2) for the worst case scenario. 
+	The relation between Big-O and the Time Function is that Big O is
+	the worst case scenario of the time function. Big O represents the
+	time it will take for a certain sort algorithm to run.
+	
+
+
+
+Insertion Sort Analysis:
+	The Big-O Time complexity of Insertion Sort is Ω(n) for best case,
+	Θ(n^2) for average case, and O(n^2) for the worst case scenario.
+	The relation between Big-O and the Time Function is that Big-O is
+	the worst case scenario of the time function. Big O represents the
+	time it will take for a certain sort algorithm to run.

@@ -1,0 +1,36 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// jeremorg
+
+1. Goal
+	The goal of this program is to load in a line of numbers from a text file
+	and put them into a vector or an array. Then the program will run 1 of 2 
+	sorting algorithms on the vector or array depending on what the user selects.
+	It will them print out the new sorted vector and take the user back to the menu.
+	This will repeat until the user chooses to exit the program.
+2. Input
+	The input for this assignment is a text file that has the 50 integers that
+	will be loaded into the vector or array. There will also be user input that
+	will be used to determine what the user wants to do based on the listed menus.
+3. Output
+	The output of this program will be two menus that will ask the user what they 
+	want to do. The vector or array will be printed out unsorted once the user
+	picks to load it. Then once sorted based on the users selection, it will be
+	printed out in ascending order.
+4. Step by Step Process
+	A menu that says "1. Load Integers (From File)" and "2. Exit Program". If the 
+	user selects 2, then the program ends. If the user selects 1, then the program
+	will read in from the text file all the integers and push them into a vector
+	or array. The vector or array will then print out as is, which is not sorted
+	yet. Then a second menu will appear. This menu will say: 
+	1. Insertion Sort
+	2. Bubble Sort
+	3. Exit Program
+	If the user enters 3, then the program will end. If the user selects either 1 or
+	2, then the respective sort function will be ran and the vector or array will be 
+	printed out in ascending order. Then the program will return to the main menu, 
+	where the user chooses to either load the integers again or close the program. Once
+	the user selects either exit program choice, then all objects will be deleted and the program will end. 
