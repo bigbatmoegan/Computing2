@@ -1,0 +1,44 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// jeremorg
+
+1. Goal
+	The goal of this project is to use Inheritance to build a framework for a
+	Pharmacy to model their employee hierarchy. It will be able to list off all
+	employees and their qualifications. It will also be able to calculate a paycheck
+	based on how many hours they worked.
+2. Input
+	The first of the inputs for this assignment is a text file that has the
+	following details about employees: the job ID, the employee first and last
+	name, the employee ID, and the hire date. This will be loaded into the program
+	to be used to create instances of them based on their job. The other input would
+	be to determine the number of hours worked. And the final user input is 
+	to determine what the user wants to select to do from the menus.
+3.Output
+	The first of the outputs will be the menus that are displayed to the user. The
+	first will ask the user if they want to load the employees from the file or 
+	if they want to exit the program. The second menu will ask if they want to 
+	print employees, enter the number of hours worked, calculate paychecks, and exit
+	the program. 
+4.Step by Step Process
+	The program will ask the user if they want to load employees from file or exit 
+	the program. If the user enters 2, then the program will end. If the user enters 1,
+	then the program will read in the first line of the text file, and then immediately read
+	in the second line. The first line is a header for the columns, so it is not needed.
+	Then until the file is empty, each line will be read in, and depending on what the
+	Job Id is, it will create a object of that type of job. It will then put that 
+	object into an array that is for that job. It will do this until all 4 employees have
+	been created. It will then let the user know it has been successfully done. Then a menu
+	will be displayed asking the user if they want to print the employees, enter hours
+	worked, calculate paychecks, or close the program. If the user selects 1, then the objects
+	will be pulled off of each array and will print out their name, rate, id, and qualifications.
+	It will then return back to the menu. If the user enters 2, then the program will ask for an
+	amount of hours worked. The user will enter a number and then it will return to the menu. 
+	If the user enters 3, it will first check if the user has entered any hours worked. If they
+	have not, then it will prompt them to go back and enter an amount of hours. If the hours
+	have been entered, then it will take each employees rate and multiply it by the number of 
+	hours worked, and then print the id and the amount on this check, and return to the menu.
+	If the user enters 4, then the program will end. 
