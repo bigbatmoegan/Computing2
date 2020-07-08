@@ -1,0 +1,27 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// jeremorg
+
+1. Goal
+	The goal of this program is to use the power of recursion to reverse a word in C.
+	This is to be done without any global variables or the built in reverse string.
+2. Input
+	The only two inputs this prgram has is the word that is to be reversed, and Y or
+	N to determine to loop the program again or end it.
+3. Output
+	The only output this program has is the reversed version of the word that the user
+	inputs.
+4. Step by Step Details
+	
+	The first thing that this program does is ask the user to input a word that they wish
+	to be reversed. The program stores that input into a variable. It then runs a function
+	that will reverse the word using recursion. It will do this by looping through a for 
+	loop for the length of the variable. It will store each letter in a temporary location
+	and move that letter to the end. At the same time a static int will be used to move the
+	letters from the end to the beginning. This will repeat until the whole word has been gone
+	through. Once the static int is greater than the decreasing size int, the program will reset
+	the static int to 0 so it can be done again. Then the completed word will be printed out for
+	the user. Then the user will choose to either run the enitre program again (Y) or to end the program (N).
