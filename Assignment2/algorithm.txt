@@ -1,0 +1,25 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// jeremorg
+1. Goal
+	The goal of this project is to make a race between the Tortise and the Hare. It is 
+	to be done with using pointers.
+2. Input
+	There will be no user input into this program it will all run once it is ran.
+3. Output
+	The output of this program will be a race between a Torise and a Hare. This will all
+	be done automatically and with random number generation. It will be random each time. 
+4. Step-by-Step Details
+	This program will print "Welcome to CSCI 240s Tortoise vs Hare race!" then the race will
+	commence. The program will generate a roll based on the Hare's probability and give a
+	result in movement based on the roll. The same thing will happen for the Tortoise. Once 
+	both have rolled, the print function will print them based on where they are at the time 
+	of that current roll. The Hare will be set to 0 if the result of a roll puts the Hare behind
+	the starting line. This will all happen until either the Tortoise of the Hare has rolled 
+	a 50 or over. But since the racer can not go over 50, the value will be set to 50. Then 
+	the final position will be printed showing the winner right next to the finish line. Then a
+	message will display showing who has won the race, then the program will return 0 to show
+	successful completion. 
