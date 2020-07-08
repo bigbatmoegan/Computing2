@@ -1,0 +1,175 @@
+==133207== Memcheck, a memory error detector
+==133207== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==133207== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==133207== Command: ./TestMe.exe
+==133207== Parent PID: 131401
+==133207== 
+==133207== Invalid write of size 4
+==133207==    at 0x401032: Player::playerShot() (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400C82: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19040 is 0 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F26: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C28: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid read of size 4
+==133207==    at 0x401038: Player::playerShot() (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400C82: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19040 is 0 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F26: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C28: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 4
+==133207==    at 0x401032: Player::playerShot() (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400C91: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19090 is 0 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid read of size 4
+==133207==    at 0x401038: Player::playerShot() (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400C91: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19090 is 0 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x40105D: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400DB5: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19094 is 4 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid read of size 1
+==133207==    at 0x4010B4: Player::getAddedLetter(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400DC6: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19094 is 4 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x40105D: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400D4B: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19044 is 4 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F26: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C28: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid read of size 1
+==133207==    at 0x4010B4: Player::getAddedLetter(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400D5C: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19044 is 4 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F26: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C28: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x40106B: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400DB5: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19095 is 5 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x401079: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400DB5: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19096 is 6 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x40106B: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400D4B: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19045 is 5 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F26: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C28: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x401087: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400DB5: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19097 is 7 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid write of size 1
+==133207==    at 0x401095: Player::changePlayerArray(int) (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400DB5: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19098 is 8 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid read of size 1
+==133207==    at 0x4010E1: Player::getFinalWord() (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==    by 0x400E6A: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19094 is 4 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid free() / delete / delete[] / realloc()
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400EE2: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19040 is 0 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F26: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C28: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== Invalid free() / delete / delete[] / realloc()
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400EFB: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Address 0x5a19090 is 0 bytes inside a block of size 16 free'd
+==133207==    at 0x4C2B18D: operator delete(void*) (vg_replace_malloc.c:576)
+==133207==    by 0x400F3F: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207==  Block was alloc'd at
+==133207==    at 0x4C2A203: operator new(unsigned long) (vg_replace_malloc.c:334)
+==133207==    by 0x400C41: main (in /home/jeremorg/csci24000_spring2018_A3/TestMe.exe)
+==133207== 
+==133207== 
+==133207== HEAP SUMMARY:
+==133207==     in use at exit: 0 bytes in 0 blocks
+==133207==   total heap usage: 2 allocs, 4 frees, 32 bytes allocated
+==133207== 
+==133207== All heap blocks were freed -- no leaks are possible
+==133207== 
+==133207== For counts of detected and suppressed errors, rerun with: -v
+==133207== ERROR SUMMARY: 65 errors from 16 contexts (suppressed: 0 from 0)

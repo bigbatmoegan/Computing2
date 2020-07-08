@@ -1,0 +1,37 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// jeremorg
+
+1. Goal
+	The goal of this project is to simulate the basketball game
+	of horse using objects in both C++ and Java.
+2. Input
+	The only input of this project is the user choosing to either
+	play again using a "Y", or to terminate the program using a 
+	"N".
+3. Output
+	The output will be a welcome to the game message. Then the game
+	will play and the result of each shot will be displayed. When a
+	player misses their shot and the other makes it, the player who
+	missed will be added a letter and indented. This will repeat until
+	one player has the full word of horse. A question to replay or not 
+	will be asked, then will either repeat the process or end the program
+4. Step by Step Details
+	The game will begin by displaying a greeting to the user. Then the 
+	program will create two objects of players. Then the game will begin
+	inside a while loop. These objects will then call their get shot
+	functions to retrieve whether they hit their shot or miss it. Then
+	the main will compare whether they both hit, both miss, or one makes
+	and one misses. If both made or both miss, then the loop will
+	continue as normal. If one makes and the other one misses, then the
+	one who missed will add a letter to their unique array. Then the 
+	number of misses for that player will increase by one, and the loop
+	will repeat. Once a player misses 5 shots, the loop ends and the winner
+	is displayed. Then a new loop starts to ask the user what they want to do. 
+	If the user inputs "Y", the main loop will re run with all new players.
+	If the user inputs "N", the players will be deleted and the main will end.
+	If anything else is entered, then it will ask again until either Y or N is 
+	entered. 
