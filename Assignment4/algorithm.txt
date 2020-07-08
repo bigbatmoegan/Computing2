@@ -1,0 +1,31 @@
+// Honor Pledge:
+//
+// I pledge that I have neither given nor 
+// received any help on this assignment.
+//
+// jeremorg
+
+1. Goal
+	The goal of this project is to read a list of students from a text file,
+	load the students from the file into objects, store them on the Stack 
+	ADT, print the Stack of students, and then exit the program.
+2. Input
+	The input from the user will be: A "1" to load the students from the 
+	text file they are in. A "2" to print all the students off of the Stack. 
+	And a "3" to exit the program. 
+3. Output
+	The output of this will be a message saying the students have been loaded
+	from the file, A full list of students from the Stack, and a message
+	telling the user goodbye.
+4. Step by Step Process
+	This program will first begin by loading in all of the necessary librarys
+	in order to successfully run the program. Then the menu will be displayed
+	asking what the user would like to do. If the user selects "1", then the
+	program will load the text file into the progam, and create a new object
+	for each student. It will also then store each object onto the Stack ADT
+	until each student has been loaded in. Once this is done then the program
+	will tell the user that the students have been loaded. It will then return
+	to the menu. If the user selects "2", it will then unload each object in a 
+	loop and then will print the values of each object. Once the Stack is empty
+	it will then return to the main menu. If the user selects "3", then the 
+	program will tell the user goodbye and end the program. 
